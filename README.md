@@ -13,7 +13,47 @@ You can get information about :
 
 ## Getting Started
 
-Code is coming
+```
+// First argument is : API KEY
+// "en" by default, "imperial" by default
+val openWeatherMapManager = OpenWeatherMapManager("82eff2c845841c89c837d4e125613d83", "fr", "metric") 
+```
+#Current weather data 
+```
+openWeatherMapManager.getCurrentWeatherByCityName("Brussel", object : OpenWeatherMapCallback<CurrentWeatherResponse>(){
+    override fun success(response: CurrentWeatherResponse) {
+        Log.i("Success", response.toString());
+    }
+
+    override fun failure(message: String) {
+        Log.i("Failure", message);
+    }
+})
+```
+# 5 day / 3 hour forecast
+```
+openWeatherMapManager.getHourForecastByCityName("Brussel", object : OpenWeatherMapCallback<HourForecastResponse>(){
+    override fun success(response: HourForecastResponse) {
+        Log.i("Success", response.toString());
+    }
+
+    override fun failure(message: String) {
+        Log.i("Failure", message);
+    }
+})
+```
+# 16 day / daily forecast
+```
+openWeatherMapManager.getDailyForecastByCityName("Brussel", object : OpenWeatherMapCallback<DailyForecastResponse>(){
+    override fun success(response: DailyForecastResponse) {
+        Log.i("Success", response.toString());
+    }
+
+    override fun failure(message: String) {
+        Log.i("Failure", message);
+    }
+}, "16")
+```
 
 ## Motivation
 
