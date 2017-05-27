@@ -1,6 +1,6 @@
 # EasyOWM
 
-This library allows you to get safe and easy information from the OpenWeatherMap API.
+This library allows you to get safe and easy information from the OpenWeatherMap API. 
 100% in kotlin (null safe / no more boilerplate code) -> Easy to maintain if they change their API.
 
 You can get information about :
@@ -21,14 +21,12 @@ AndroidManifest.xml
 
 ```
 <uses-permission android:name="android.permission.INTERNET" />
-
 ```
 
 Gradle !! NOT WORKING !!
  
 ```
  compile 'com.github.sokarcreative:easyowm:master-SNAPSHOT'
- 
 ```
  Waiting for an answer from stackoverflow : https://stackoverflow.com/questions/44216121/no-way-to-compile-my-own-kotlin-library
 
