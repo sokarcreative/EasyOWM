@@ -14,11 +14,10 @@ You can get information about :
 ## Getting Started
 
 ```
-// First argument is : API KEY
-// "en" by default, "imperial" by default
+// API KEY (mandatory), LANG (OPTIONAL) "en" by default, UNITS (OPTIONAL) "imperial" by default
 val openWeatherMapManager = OpenWeatherMapManager("82eff2c845841c89c837d4e125613d83", "fr", "metric") 
 ```
-#Current weather data 
+# Current weather data 
 ```
 openWeatherMapManager.getCurrentWeatherByCityName("Brussel", object : OpenWeatherMapCallback<CurrentWeatherResponse>(){
     override fun success(response: CurrentWeatherResponse) {
@@ -43,6 +42,7 @@ openWeatherMapManager.getHourForecastByCityName("Brussel", object : OpenWeatherM
 })
 ```
 # 16 day / daily forecast
+// Note : 16 is "cnt" (optional) 7 by default 
 ```
 openWeatherMapManager.getDailyForecastByCityName("Brussel", object : OpenWeatherMapCallback<DailyForecastResponse>(){
     override fun success(response: DailyForecastResponse) {
