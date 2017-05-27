@@ -8,6 +8,9 @@ You can get information about :
 - 5 day / 3 hour forecast (by city name, city id, lat and lon or zip)
 - 16 day / daily forecast (by city name, city id, lat and lon or zip + cnt)
 
+
+![EasyOWM Demo Screenshot](http://sokarcreative.be/images/easyown-screenshot.png)
+
 ## Getting Started
 
 Code is coming
