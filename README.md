@@ -42,7 +42,7 @@ openWeatherMapManager.getHourForecastByCityName("Brussel", object : OpenWeatherM
 })
 ```
 # 16 day / daily forecast
-// Note : 16 is "cnt" (optional) 7 by default 
+// Note : "16" is cnt (optional) "7" by default 
 ```
 openWeatherMapManager.getDailyForecastByCityName("Brussel", object : OpenWeatherMapCallback<DailyForecastResponse>(){
     override fun success(response: DailyForecastResponse) {
