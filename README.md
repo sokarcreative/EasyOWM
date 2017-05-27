@@ -24,14 +24,13 @@ AndroidManifest.xml
 
 ```
 
-gradle
- !! NOT WORKING FOR !! 
+Gradle !! NOT WORKING !!
  
 ```
  compile 'com.github.sokarcreative:easyowm:master-SNAPSHOT'
  
 ```
- Waiting answer from stackoverflow : https://stackoverflow.com/questions/44216121/no-way-to-compile-my-own-kotlin-library
+ Waiting for an answer from stackoverflow : https://stackoverflow.com/questions/44216121/no-way-to-compile-my-own-kotlin-library
 
 
 ## API Reference
@@ -41,7 +40,7 @@ OpenWeatherMap API : http://openweathermap.org/api
 ## Built With
 
 * [Kotlin](https://kotlinlang.org/) - A statically-typed programming language
-* [Retrofit](http://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java
+* [Retrofit2](http://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java
 * [Android Studio 3.0 Canary 2](https://developer.android.com/studio/archive.html/) - Android Studio Preview Version
 
 ## License
