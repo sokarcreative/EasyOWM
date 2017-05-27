@@ -1,7 +1,7 @@
 # EasyOWM
 
-This library allows you to get safe and easy information from the OpenWeatherMap API. 
-100% in kotlin (null safe / no more boilerplate code) -> Easy to maintain if they change their API.
+This library allows you to get some information about OpenWeatherMap API.<br />
+The code is 100% written in kotlin -> Easier to maintain if they change their API (avoid boilerplate code).
 
 You can get information about :
 - Current weather data (by city name, city id, lat and lon or zip)
