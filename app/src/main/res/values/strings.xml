@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EasyOWM</string>
+    <string name="x_celcius">%1$s °C</string>
+</resources>
