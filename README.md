@@ -1,6 +1,6 @@
 # EasyOWM for Android
 
-This library allows you to get some information about OpenWeatherMap API.<br />
+This library allows you to get some information from OpenWeatherMap API.<br />
 The code is 100% written in kotlin -> Easier to maintain if they change their API (avoid boilerplate code).
 
 You can get information about :
