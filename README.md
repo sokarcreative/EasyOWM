@@ -66,10 +66,10 @@ AndroidManifest.xml
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 
-Gradle !! NOT WORKING !!
+Gradle 
  
 ```
- compile 'com.github.sokarcreative:easyowm:master-SNAPSHOT'
+ compile 'com.github.sokarcreative:easyowm:1.0'
 ```
  Waiting for an answer from stackoverflow : https://stackoverflow.com/questions/44216121/no-way-to-compile-my-own-kotlin-library
 
@@ -82,7 +82,7 @@ OpenWeatherMap API : http://openweathermap.org/api
 
 * [Kotlin](https://kotlinlang.org/) - A statically-typed programming language
 * [Retrofit2](http://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java
-* [Android Studio 3.0 Canary 2](https://developer.android.com/studio/archive.html/) - Android Studio Preview Version
+* [Android Studio 3.0 Canary 3](https://developer.android.com/studio/archive.html/) - Android Studio Preview Version
 
 ## License
 
