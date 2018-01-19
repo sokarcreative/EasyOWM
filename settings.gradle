@@ -1,1 +1,1 @@
-include ':app', ':easyowm'
+include ':demo', ':library'
