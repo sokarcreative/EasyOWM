@@ -40,7 +40,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        editTextValue.setText(cityName)
         radioByCityName.setOnCheckedChangeListener({ _: CompoundButton, checked: Boolean ->
             if(checked) {
                 arg = Arg.BY_CITY_NAME
@@ -93,7 +92,7 @@ class MainActivity : AppCompatActivity() {
         buttonExecute.setOnClickListener({
             editTextValue.text.toString().takeIf { it.isNotBlank() }?.let {
                 if(arg != Arg.BY_LAT_LNG || it.split("-").size == 2){
-                    when(request!!.code + arg!!.code){
+                    when(request.code + arg.code){
                         Request.WEATHER.code + Arg.BY_CITY_NAME.code -> openWeatherMapApi.getCurrentWeatherByCityName(it, logResponse<CurrentWeatherResponse>())
                         Request.WEATHER.code + Arg.BY_CITY_ID.code -> openWeatherMapApi.getCurrentWeatherByCityId(it, logResponse<CurrentWeatherResponse>())
                         Request.WEATHER.code + Arg.BY_LAT_LNG.code -> {
