@@ -24,8 +24,8 @@ dependencies {
     api "com.android.support:appcompat-v7:$android_support_version"
     //testCompile 'junit:junit:4.12'
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-    api 'com.squareup.retrofit2:retrofit:2.3.0'
-    api "com.squareup.retrofit2:converter-moshi:2.3.0"
+    api 'com.squareup.retrofit2:retrofit:2.4.0'
+    api "com.squareup.retrofit2:converter-moshi:2.4.0"
 }
 
 sourceSets {
